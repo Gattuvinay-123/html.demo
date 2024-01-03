@@ -1,0 +1,15 @@
+.outer{
+    height: 300px;
+    border:2px solid brown;
+    border-radius: 20px;
+   
+}
+.inner{
+    border: 2px solid red;
+    display: inline-block;
+
+    margin: 12px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    
+}
