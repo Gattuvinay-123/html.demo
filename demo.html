@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>intorduction to css</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1 id="h1" > heading for css</h1>
-    <p class="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt qui perferendis dolorem temporibus nobis labore accusamus rerum iste, sequi molestias? Architecto laborum nisi quaerat velit tempore asperiores veritatis molestiae corporis incidunt deserunt! Laudantium ratione deleniti eos ipsum, debitis illo voluptates modi adipisci ex iste ipsam saepe numquam cupiditate officiis excepturi.</p>
-    <h2 id="h2">second heading</h2>
-    <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur architecto maiores consequuntur expedita est dolores dolorum sapiente illo asperiores libero?</p>
-    <h3 id="h3">heading3</h3>
-    <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dignissimos magnam optio, sit animi temporibus nulla odio rem. Incidunt odio architecto praesentium quis nisi ratione omnis magnam sed deserunt officia quisquam sint dicta laborum nam ipsum, velit dolorum autem.</p>
-   <img src="https://i.natgeofe.com/k/520e971d-7a22-4a6f-90dc-258df74e45bc/american-goldfinch_2x1.jpg" height="200">
-</body>
+    <style>
+      table,
+      th,
+      tr,
+      td {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="500px" height="300px">
+      <th rowspan="2">Name</th>
+
+      <th rowspan="2">Sem</th>
+
+      <th colspan="3">Marks</th>
+
+      <tr>
+        <td>sub1</td>
+        <td>sub2</td>
+        <td>sub3</td>
+      </tr>
+      <tr>
+        <td rowspan="4">cse</td>
+        <td rowspan="2">1st</td>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">2nd</td>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+      </tr>
+    </table>
+  </body>
 </html>
