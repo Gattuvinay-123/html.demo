@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    flex-shrink: ;
+    
 }
 header{
     display: flex;
@@ -40,7 +40,7 @@ ul{
 }    
 .main{
     display: flex;
-    align-items: ;
+   
     justify-content: space-between;
 }
 .left{

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>counter2</title>
+    
+    
+    
+    <style>
+      .dark {
+        background-color: black;
+        color: white;
+        
+      }
+      body{
+       
+      }
+      .right{
+        padding-left: 610px;
+      }
+      body{
+        border:2px solid black
+      }
+      .left{
+        
+      }
+    </style>
+  </head>
+  <body id="bd"  >
+    
+    
+    
+    
+    <div id="maindiv">
+      <div class="right">
+        <button id="btn" onclick="shift()">light</button>
+    </div>
+      <div class="middle">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam unde eos iusto quos aut sequi vel aliquid obcaecati cumque, dolores, nobis amet, illum accusamus? Voluptates, quo nostrum, enim ad non est reprehenderit eveniet iusto eos reiciendis explicabo suscipit aspernatur voluptas!
+        </p>
+      </div>
+      <div class="middle2"> <button onclick="change()">change</button></div>
+    </div>
+
+
+
+
+    <script>
+      const value = document.querySelector(".right");
+      function shift() 
+      {
+        document.body.classList.toggle('dark')
+
+      }
+      const v=document.querySelector(".right2")
+      
+
+      
+      function change()
+      {
+        document.getElementById("maindiv").style.backgroundImage="url(https://cdn.wallpapersafari.com/72/28/kbcR9G.jpg)"
+      }
+      function change()
+      {
+        document.getElementById("bd").style.backgroundImage="url(https://static0.srcdn.com/wordpress/wp-content/uploads/Spider-Man3.jpg)"
+      }
+
+    </script>
+  </body>
+</html>

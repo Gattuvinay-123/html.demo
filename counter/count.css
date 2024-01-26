@@ -1,0 +1,6 @@
+#counter{
+    border-color: 2px solid black;
+    padding: 40px;
+    display: flex;
+    flex-direction:column;
+}
